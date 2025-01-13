@@ -3,22 +3,32 @@ entries:
   enqualifyapi:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-12-18T09:46:59.123415095+03:00"
+    created: "2025-01-13T14:34:42.679363834+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 4caba49f4353e704cc6e8956e69335a9fe0ba10f6471388d41b6f8c542d3dac2
+    name: enqualifyapi
+    type: application
+    urls:
+    - enqualifyapi-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-01-13T14:34:42.678889612+03:00"
     description: A Helm chart for Kubernetes
     digest: 7fc90c21e5f2f2b7cc549b73bafd3127fffff9032511a6aa242d1b11a9459dc7
     name: enqualifyapi
     type: application
     urls:
-    - https://raw.githubusercontent.com/EnquraTechnology/HelmEnQualifyAPI/main/enqualifyapi-0.1.1.tgz
+    - enqualifyapi-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-12-18T09:46:59.122923582+03:00"
+    created: "2025-01-13T14:34:42.67842259+03:00"
     description: A Helm chart for Kubernetes
     digest: a00cfad4ed1237ca6fd6ea2a6ca9a2611eabc4d7d8f4160517b29b2ce76de4fe
     name: enqualifyapi
     type: application
     urls:
-    - https://raw.githubusercontent.com/EnquraTechnology/HelmEnQualifyAPI/main/enqualifyapi-0.1.0.tgz
+    - enqualifyapi-0.1.0.tgz
     version: 0.1.0
-generated: "2024-12-18T09:46:59.122169162+03:00"
+generated: "2025-01-13T14:34:42.677692956+03:00"
