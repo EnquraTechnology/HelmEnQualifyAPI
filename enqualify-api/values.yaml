@@ -38,10 +38,10 @@ volumes:
 
 # Volume
 volumeMounts:
-  - name: appsettingsjs
+  appsettingsjs:
     mountPath: /opt/app-root/app/appsettings.json
     subPath: appsettings.json
-  - name: videopvc
+  videopvc:
     mountPath: /opt/app-root/app/files
 
 # Uygulama
