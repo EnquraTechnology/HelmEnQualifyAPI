@@ -64,8 +64,8 @@ spec:
           timeoutSeconds: 30
         volumeMounts:
         - name: appsettingsjs
-          mountPath: {{ .Values.volumeMounts.appsettingsjs.mountPath }}
-          subPath: {{ .Values.volumeMounts.appsettingsjs.subPath }}
+          mountPath: {{ .Values.volumeMounts.appsettingsjs.mountPath | default "/opt/app-root/app/appsettings.json" }}
+          subPath: {{ .Values.volumeMounts.appsettingsjs.subPath | default "appsettings.json" }}
         - name: videopvc
           mountPath: {{ .Values.volumeMounts.videopvc.mountPath }}
       imagePullSecrets:

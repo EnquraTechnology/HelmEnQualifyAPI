@@ -29,20 +29,20 @@ containerPorts:
   http: 8080
 
 # Volume
-volumes:
-  appsettingsjs:
-    configMap: enqualify-api
-  videopvc:
-    persistentVolumeClaim:
-      claimName: enqualify-api-claim
-
-# Volume
 volumeMounts:
   appsettingsjs:
     mountPath: /opt/app-root/app/appsettings.json
     subPath: appsettings.json
   videopvc:
     mountPath: /opt/app-root/app/files
+
+# Volume
+volumes:
+  appsettingsjs:
+    configMap: enqualify-api
+  videopvc:
+    persistentVolumeClaim:
+      claimName: enqualify-api-claim
 
 # Uygulama
 application:
