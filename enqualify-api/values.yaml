@@ -30,9 +30,9 @@ containerPorts:
 
 # Volume
 volumeMounts:
-  appsettingsjs:
-    mountPath: /opt/app-root/app/appsettings.json
-    subPath: appsettings.json
+  #appsettingsjs:
+   # mountPath: /opt/app-root/app/appsettings.json
+   # subPath: appsettings.json
   videopvc:
     mountPath: /opt/app-root/app/files
 
