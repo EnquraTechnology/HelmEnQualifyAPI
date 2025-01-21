@@ -10,7 +10,7 @@ spec:
     io.service: enqualify-api
   ingressClassName: {{ .Values.ingressClassName }}
   rules:
-  - host: 
+  - host: {{ .Values.rules.host }}
     http:
       paths:
       - path: /
