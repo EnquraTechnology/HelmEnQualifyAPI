@@ -18,7 +18,7 @@ service:
 
 # Image
 imagePullSecrets:
-  - name: dockerhubsecret
+  name: dockerhubsecret
 
 # Deployment
 strategy:
