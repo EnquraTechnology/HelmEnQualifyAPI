@@ -34,12 +34,12 @@ containerPorts:
   http: 8080
 
 # Volume
-volumeMounts:
+#volumeMounts:
   #appsettingsjs:
    # mountPath: /opt/app-root/app/appsettings.json
    # subPath: appsettings.json
-  videopvc:
-    mountPath: /opt/app-root/app/files
+  #videopvc:
+    #mountPath: /opt/app-root/app/files
 
 # Volume
 volumes:

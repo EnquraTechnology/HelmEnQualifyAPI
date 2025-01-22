@@ -67,7 +67,7 @@ spec:
           mountPath: /opt/app-root/app/appsettings.json
           subPath: appsettings.json
         - name: videopvc
-          mountPath: {{ .Values.volumeMounts.videopvc.mountPath }}
+          mountPath: /opt/app-root/app/files
       imagePullSecrets:
       - name: {{ .Values.imagePullSecrets.name }}
       volumes:
