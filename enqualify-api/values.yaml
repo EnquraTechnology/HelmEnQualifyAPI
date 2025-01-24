@@ -3,7 +3,7 @@ namespace: enqualifyapp
 
 # Image
 image:
-  repository: dockerhub.io/enqualify-api
+  repository: enqurainc/enverify-api
   tag: "20240813.1"
   pullPolicy: IfNotPresent
 
