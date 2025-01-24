@@ -4,9 +4,9 @@ metadata:
    name: enqualify-api-claim
    namespaces: enqualifyapp
 spec:
-  storageClassName: nfs-sc
+  storageClassName: {{ .Values.pvc.storageClassName }}
   accessModes:
   - ReadWriteMany
   resources:
     requests:
-       storage: 100Gi
+       storage: {{ .Values.pvc.resources.requests.storage }}

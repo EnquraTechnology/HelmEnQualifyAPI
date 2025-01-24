@@ -33,6 +33,11 @@ strategy:
 containerPorts:
   http: 8080
 
+pvc:
+  storageClassName: nfs-sc
+  resources:
+    requests:
+      storage: 100Gi
 # Volume
 #volumeMounts:
   #appsettingsjs:
