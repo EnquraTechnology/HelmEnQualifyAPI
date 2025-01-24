@@ -35,9 +35,17 @@ containerPorts:
 
 pvc:
   storageClassName: nfs-sc
+  volumeName: enqualify-pv
   resources:
     requests:
       storage: 100Gi
+pv:
+  name: enqualify-pv
+  capacity: 100Gi
+  nfs:
+    server: " "
+    path: "/"
+
 # Volume
 #volumeMounts:
   #appsettingsjs:

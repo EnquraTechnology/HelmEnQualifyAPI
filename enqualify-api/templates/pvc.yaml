@@ -5,6 +5,8 @@ metadata:
    namespaces: enqualifyapp
 spec:
   storageClassName: {{ .Values.pvc.storageClassName }}
+  volumeName: {{ .Values.pvc.volumeName }}
+
   accessModes:
   - ReadWriteMany
   resources:
