@@ -22,8 +22,8 @@ rules:
   host: enqualifyapi.example.com
 
 # Image
-imagePullSecrets:
-  name: dockerhubsecret
+#imagePullSecrets:
+  #name: dockerhubsecret
 
 # Deployment
 strategy:
