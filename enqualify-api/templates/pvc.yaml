@@ -2,7 +2,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
    name: enqualify-api-claim
-   namespaces: enqualifyapp
+   namespaces: {{ .Values.namespace }}
 spec:
   storageClassName: {{ .Values.pvc.storageClassName }}
   volumeName: {{ .Values.pvc.volumeName }}

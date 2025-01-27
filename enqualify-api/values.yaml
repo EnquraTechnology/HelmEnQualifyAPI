@@ -3,8 +3,8 @@ namespace: enqualifyapp
 
 # Image
 image:
-  repository: enqurainc/enverify-api
-  tag: "20240813.1"
+  repository: ""
+  tag: ""
   pullPolicy: IfNotPresent
 
 # Replica
@@ -45,14 +45,6 @@ pv:
   nfs:
     server: " "
     path: "/"
-
-# Volume
-#volumeMounts:
-  #appsettingsjs:
-   # mountPath: /opt/app-root/app/appsettings.json
-   # subPath: appsettings.json
-  #videopvc:
-    #mountPath: /opt/app-root/app/files
 
 # Volume
 volumes:
